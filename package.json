@@ -1,0 +1,29 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Rest API assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Express",
+    "REST",
+    "API"
+  ],
+  "author": "rahulmankar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "chai-http": "4.3.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.7.5"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.2.1",
+    "request": "2.88.0"
+  }
+}
