@@ -10,7 +10,7 @@ npm i
 npm start
 
 # Run test cases:
-npm start
+npm test
 
 # Localhost URL
 ## Save User
